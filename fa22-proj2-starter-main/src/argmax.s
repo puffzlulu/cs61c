@@ -30,7 +30,7 @@ argmax:
 loop_start:
     #let the first element be the largest
     slli t2,t0,2  #offset
-    add t3,s0,t1  #the first address
+    add t3,s0,t2  #the first address
     lw t4,0(t3)   #t4->the largest value
 
     #compare the second element and the first element
